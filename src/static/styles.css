@@ -75,10 +75,21 @@ section h3 {
 }
 
 .activity-card ul {
-  list-style-type: disc;
-  margin-left: 20px;
-  margin-top: 10px;
+  list-style-type: none;
+  margin-left: 0;
   padding-left: 0;
+}
+
+.delete-icon {
+  color: #c62828;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.delete-icon:hover {
+  color: #b71c1c;
 }
 
 .activity-card li {
