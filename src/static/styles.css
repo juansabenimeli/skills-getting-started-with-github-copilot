@@ -74,6 +74,30 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.delete-icon {
+  color: #c62828;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.delete-icon:hover {
+  color: #b71c1c;
+}
+
+.activity-card li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
